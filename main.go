@@ -24,7 +24,7 @@ func init() {
 		log.Print("No .env file found")
 	}
 }
-
+//.
 func main() {
 	appIDEnv, appIDExists := os.LookupEnv("APP_ID")
 	appCertEnv, appCertExists := os.LookupEnv("APP_CERTIFICATE")
